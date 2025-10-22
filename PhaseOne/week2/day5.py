@@ -100,4 +100,4 @@ print(text_six)
 
 # #100
 # Remove all empty strings from a list.
-# Example: ["apple", "", "banana", "", "cherry"] → ["apple", "banana", "cherry"]
+# Example: ["apple", "", "banana", "", "cherry"] → ["apple", 
