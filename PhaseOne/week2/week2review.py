@@ -66,11 +66,42 @@
 # R7. Count how many vowels are in a given string.
 # Example: "education" → 5
 
+
+# text = input("Please enter a string: ")
+# vowel = "aeiou"
+# count = 0
+#
+# for ch in text:
+#     if ch in vowel:
+#         count += 1
+#
+# print(f"count: {count}")
+
+
 # R8. Replace every space in a string with a dash (-).
 # Example: "hello world" → "hello-world"
+
+# text = input("Enter a phrase with spaces: ")
+# text = text.replace(" ", "-")
+# print(text)
+
 
 # R9. Find the largest number in a list.
 # Example: [5, 9, 2, 8] → 9
 
+# nums = [1, 2, 4, 5, 12, 7, 9]
+# print(max(nums))
+
 # R10. Remove duplicates from a list while keeping order.
 # Example: [1, 2, 2, 3, 1] → [1, 2, 3]
+
+nums = [1, 2, 2, 3, 1, 4, 5, 5, 4, 6]
+unique = set()
+result = []
+
+for num in nums:
+    if num not in unique:
+        result.append(num)
+        unique.add(num)
+
+print(result)
