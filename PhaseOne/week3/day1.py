@@ -1,52 +1,133 @@
-# Comprehensive review before week 3
-
-# 🔹 #RN1 — Even & Odd Counter
-# counts how many even and odd numbers are in a given list.
-# Example:
-# nums = [1, 2, 3, 4, 5, 6]
-# → Evens: 3, Odds: 3
+# 101
+# Create a function that prints "Hello, World!" when called.
+# Example: hello()
+# Output: Hello, World!
 
 
-nums = [1, 2, 3, 4, 5, 6]
-evens = 0
-odds = 0
+def hello():
+    print("Hello, World!")
 
-for num in nums:
-    if num % 2 == 0:
-        evens += 1
-    else:
-        odds += 1
 
-print(f"Evens: {evens}, Odds: {odds}")
+hello()
 
-# 🔹 #RN2 — Reverse Words, Not Letters
-# Reverse order of words in a sentence, but keep each word’s letters the same.
-# Example:
-# text = "Python is fun"
-# → "fun is Python"
+# 102
+# Write a function that takes a name and prints a personalized greeting.
+# Example: greet("Luna")
+# Output: Hello, Luna!
 
-text = "Python is fun"
-text = text.split(" ")
-result = ""
 
-for word in reversed(text):
-    result += word + " "
+def greet(name="Luna"):
+    print("Hello,", name)
 
-print(result[:-1])
 
-# 🔹 #RN3 — Remove Vowels and Reverse
-# Remove all vowels from a string, then reverse the result.
-# Example:
-# text = "education"
-# → "ntcd"  (since “education” → “dctn” after removing vowels, then reversed)
+greet()
 
-text = input("Enter a word: ")
-vowels = "aeiou"
-result = ""
+# 103
+# Write a function that adds two numbers and returns the result.
+# Example: add(4, 7)
+# Output: 11
 
-for ch in text:
-    if ch not in vowels:
-        result += ch
 
-result = result[::-1]
+def add(x, y):
+    return x + y
+
+
+result = add(4, 7)
 print(result)
+
+# 104
+# Create a function that takes a number and returns its square.
+# Example: square(6)
+# Output: 36
+
+
+def square(s):
+    return s * s
+
+
+resultOne = square(6)
+print(resultOne)
+
+# 105
+# Write a function that returns the larger of two numbers.
+# Example: bigger(10, 25)
+# Output: 25
+
+
+def bigger(a, b):
+    return max(a, b)
+
+
+resultTwo = bigger(10, 25)
+print(resultTwo)
+
+# 106
+# Write a function that checks if a number is even or odd.
+# Example: check_even(7)
+# Output: Odd
+
+
+def check_even(num):
+    if num % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+
+check_even(7)
+check_even(8)
+
+# 107
+# Define a function that returns the length of a string.
+# Example: str_length("Python")
+# Output: 6
+
+
+def str_length(text):
+    return len(text)
+
+
+resultThree = str_length("Python")
+print(resultThree)
+
+# 108
+# Write a function that takes a list of numbers and returns their sum.
+# Example: sum_list([2, 4, 6])
+# Output: 12
+
+
+def sum_list(nums):
+    sum = 0
+    for num in nums:
+        sum += num
+    return sum
+
+
+resultFour = sum_list([2, 4, 6])
+print(resultFour)
+
+# 109
+# Create a function that takes a string and returns it in uppercase.
+# Example: to_upper("hello")
+# Output: HELLO
+
+
+def to_upper(word):
+    return word.upper()
+
+
+resultFive = to_upper("hello")
+print(resultFive)
+
+# 110
+# Function that returns the first and last elements of a list as a tuple.
+# Example: ends([10, 20, 30, 40])
+# Output: (10, 40)
+
+
+def ends(nums):
+    return (nums[0], nums[-1])
+
+
+resultSix = ends([10, 20, 30, 40])
+print(resultSix)
