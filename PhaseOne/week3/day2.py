@@ -26,7 +26,7 @@ print(set_one)
 # Input: {1, 2, 3, 4}, remove 3
 # Output: {1, 2, 4}
 
-set_one.remove(3)
+set_one.discard(3)
 
 print(set_one)
 
