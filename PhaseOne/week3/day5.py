@@ -75,8 +75,8 @@ print(merge_list(list_three, list_four))
 nums_five = [1, 2, 3, 4, 5, 6]
 
 
-def even_set(nums: List[int]) -> set:
-    return set(n for n in nums if n % 2 == 0)
+def even_set(nums: List[int]) -> set[int]:
+    return {n for n in nums if n % 2 == 0}
 
 
 print(even_set(nums_five))
