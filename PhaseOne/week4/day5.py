@@ -1,70 +1,41 @@
-# Week 4 — Day 5: Lambda & Recursion
+# 🔹 Week 4 — Day 5: Recursion (Problems 191–200)
 
-# 141
-# Create a lambda assigned to 'square' that returns n * n.
-# Example:
-# square(4)
-# Output: 16
+# #191
+# Write a recursive function that sums all numbers from 1 to n.
+# Example: 5 → 15  (1+2+3+4+5)
 
+# #192
+# Write a recursive function to compute factorial of n.
+# Example: 5 → 120
 
-# 142
-# Write a function that sorts a list of (name, score) tuples by score
-# using a key with lambda. Return the sorted list.
-# Example:
-# sort_by_second([("a", 3), ("b", 1), ("c", 2)])
-# Output: [("b", 1), ("c", 2), ("a", 3)]
+# #193
+# Write a recursive function to reverse a string.
+# Example: "python" → "nohtyp"
 
-# 143
-# Write a function that returns only even numbers from a list using
-# filter with a lambda.
-# Example:
-# even_only([1, 2, 3, 4, 5, 6])
-# Output: [2, 4, 6]
+# #194
+# Write a recursive function that counts down from n to 1.
+# Example: n=3 → 3 2 1
 
-# 144
-# Write a function that uppercases every string in a list using map with
-# a lambda. Return the new list.
-# Example:
-# upper_all(["hi", "there"])
-# Output: ["HI", "THERE"]
+# #195
+# Write a recursive function to compute the nth Fibonacci number.
+# Example: n=6 → 8
 
-# 145
-# Write a function that returns the last character of each word in a
-# list using map with a lambda.
-# Example:
-# last_chars(["alpha", "beta", "pi"])
-# Output: ["a", "a", "i"]
+# #196
+# Write a recursive function to find the maximum in a list.
+# Example: [3, 1, 4, 2] → 4
 
-# 146
-# Write a recursive function that returns the factorial of n.
-# Assume n >= 0 and 0! == 1.
-# Example:
-# factorial(5)
-# Output: 120
+# #197
+# Write a recursive function that returns True if a word is a palindrome.
+# Example: "level" → True
 
-# 147
-# Write a recursive function that returns the nth Fibonacci number with
-# fib(0) == 0 and fib(1) == 1.
-# Example:
-# fib(6)
-# Output: 8
+# #198
+# Write a recursive function that calculates the sum of digits of a number.
+# Example: 1234 → 10
 
-# 148
-# Write a recursive function that returns the sum of all numbers in a
-# list.
-# Example:
-# sum_list([1, 2, 3, 4])
-# Output: 10
+# #199
+# Write a recursive function to count how many times a target appears in a list.
+# Example: ([1, 2, 3, 2], 2) → 2
 
-# 149
-# Write a recursive function that counts the digits in a non-negative
-# integer.
-# Example:
-# count_digits(50210)
-# Output: 5
-
-# 150
-# Write a recursive function that returns the reverse of a string.
-# Example:
-# reverse_string("python")
-# Output: "nohtyp"
+# #200
+# Write a recursive function to flatten a nested list.
+# Example: [1, [2, [3, 4]], 5] → [1, 2, 3, 4, 5]
