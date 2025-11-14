@@ -70,6 +70,18 @@ List & dict comprehensions
 
 Simple error handling (try/except)
 
+The current Week 5–6 (updated fluency plan)
+
+When we refined your track into the Python Fluency Program, we restructured it to focus on:
+
+Problem-solving patterns (two-pointers, frequency maps)
+
+Real-world data manipulation
+
+Mini-algorithms that transition naturally into LeetCode Easy
+
+This section has been discontinued
+
 Week 5 (Mixed Challenges & Patterns: Problems 201–250)
 
 Digit manipulation (Armstrong, Collatz, digit sums/products)
