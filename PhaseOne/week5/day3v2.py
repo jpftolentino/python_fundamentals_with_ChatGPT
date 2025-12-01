@@ -1,8 +1,20 @@
-
 # 🔹 #221
 # Given a list of dictionaries with 'name' and 'age' keys, return the
 # average age.
 # Example: [{'name':'A','age':20},{'name':'B','age':30}] → 25.0
+
+
+def avg_age(data: list[dict]) -> float:
+    total = 0
+    for item in data:
+        for key, value in item.items():
+            if key == "age":
+                total += value
+    return total / len(data)
+
+
+print(avg_age([{"name": "A", "age": 20}, {"name": "B", "age": 30}]))
+
 
 # 🔹 #222
 # Convert a dictionary of lists into a list of dictionaries.
